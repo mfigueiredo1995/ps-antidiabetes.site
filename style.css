@@ -1,0 +1,102 @@
+@font-face {
+	font-family: Gotham Rounded;
+	src: url("font.otf") format("opentype");
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+	font-family: Gotham Rounded;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height:80vh;
+	background: url("bg.jpg") no-repeat fixed center;
+	background-size: cover;
+}
+
+#container {
+	max-width: 600px;
+	padding: 15px;
+}
+
+.black {
+	border: 1px solid #5D1515;
+	background-color: #F8F8F8;
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0 0 10px 2px #ffffff;
+}
+
+.question{
+	padding: 0px 15px;
+}
+
+.question h1 {
+	font-size: 30px;
+	color: #A34336;
+}
+
+.question p {
+	margin-top: -10px;
+	font-size: 20px;
+	color: #343A40;
+}
+
+.cta {
+	padding-top: 5px;
+	padding-bottom: 25px;
+	justify-content: center;
+}
+
+.btn {
+	padding: 5px 80px;
+	border-radius: 10px;
+	font-size: 20px;
+	border: 1px solid #5D1515;
+	background-color: #A34336;
+	box-shadow: 0 0 6px 2px #A34336;
+	outline: none;
+	color: #F8F8F8;
+	text-decoration: none;
+}
+
+.btn:hover{
+	background: #5D1515;
+	background: -moz-linear-gradient(top, #5D1515 0%, #A34336 100%);
+	background: -webkit-linear-gradient(top, #5D1515 0%, #A34336 100%);
+	background: linear-gradient(to bottom, #5D1515 0%, #A34336 100%);
+	border-radius: 10px;
+}
+
+
+#rodape {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: #5D1515;
+	color: #ffffff;
+}
+
+.direitos {
+	max-width: 600px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin: auto;
+
+}
+
+.direitos p{
+	color: #F8F8F8;
+	font-size: 12px;
+	
+}
