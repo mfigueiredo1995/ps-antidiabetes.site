@@ -59,7 +59,6 @@ body {
 	padding: 5px 80px;
 	border-radius: 10px;
 	font-size: 20px;
-	border: 1px solid #5D1515;
 	background-color: #A34336;
 	box-shadow: 0 0 6px 2px #A34336;
 	outline: none;
@@ -68,10 +67,10 @@ body {
 }
 
 .btn:hover{
-	background: #5D1515;
-	background: -moz-linear-gradient(top, #5D1515 0%, #A34336 100%);
-	background: -webkit-linear-gradient(top, #5D1515 0%, #A34336 100%);
-	background: linear-gradient(to bottom, #5D1515 0%, #A34336 100%);
+	background: #A34336;
+	background: -moz-linear-gradient(top, #A34336 0%, #F86653 100%);
+	background: -webkit-linear-gradient(top, #A34336 0%, #F86653 100%);
+	background: linear-gradient(to bottom, #A34336 0%, #F86653 100%);
 	border-radius: 10px;
 }
 
